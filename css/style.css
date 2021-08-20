@@ -1,0 +1,169 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial,sans-serif;
+  overflow-x: hidden;
+
+}
+
+
+.navbar-item{
+  font-size: 20px;
+}
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.64);
+}
+.slide-text{
+  font-family: cursive,fantasy,ui-sans-serif;
+}
+
+.about-logo{
+  color:#c9bea6;
+}
+.about-title{
+  font-family: Comic Sans MS;
+}
+
+.card-title{
+  font-size: 50px;
+}
+.service{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+#services{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.service-logo{
+  color: rgb(1,74,100);
+}
+#product{
+  font-family: cursive,Verdana;
+
+
+}
+.product-title{
+  margin-top: 50px;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  text-decoration: underline;
+
+}
+.s-list{
+  color: black;
+
+}
+.s-img{
+  width: 127px;
+  height: 127px
+}
+
+.logo{
+  color: green;
+}
+.dropdown-item.i-name:hover{
+  background: #F0FFFF;
+}
+.list-group-item{
+  font-size: 23px;
+  font-family:
+}
+.v-item{
+  list-style-type: circle;
+}
+#gallary{
+margin-top: 80px;
+  margin-bottom: 90px;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-gap: 5px;
+
+}
+
+.g-img{
+  width: 100%;
+  border-radius: 20px;
+}
+.box{
+  padding: 10px;
+}
+.map{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contack{
+  margin-left: 70px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  background-color:#3c4653;
+  color: white;
+  border-radius: 10px;
+  font-family: cursive,Verdana;
+
+}
+.contack-form{
+  margin: 50px;
+  font: Verdana;
+}
+.social-media{
+  font-family: "Poppins", Arial, Tahoma, sans-serif;
+  font-weight: 600;
+    letter-spacing: 0px;
+        color: #ffffff;
+}
+.main-footer{
+  vertical-align: baseline;
+  background-color:#303945;
+color: white;
+}
+ul.top-f{
+    list-style-type: none;
+      color: white;
+}
+.f-list {
+  color: white;
+}
+.pf-img{
+  width:200px;
+   height:100px;
+
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background: white;
+}
+.far{
+  margin-left: 140px;
+}
+
+#admin{
+  display: none;
+}
+
+/* Css Media Qyery */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        margin-top:100px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    body {
+        margin-top:50px;
+    }
+}
